@@ -13,29 +13,31 @@ window.addEventListener('scroll', () => {
   }
 });
 
-/* 2. MOBILE HAMBURGER MENU: Toggle open/close */
+/* 2. MOBILE HAMBURGER MENU: Toggle open/close (event delegation) */
 const hamburgerBtn = document.querySelector('.hamburger');
 const mobileMenu = document.querySelector('.mobile-menu');
 
-if (hamburgerBtn) {
-  hamburgerBtn.addEventListener('click', (e) => {
-    e.stopPropagation();
-    mobileMenu.classList.toggle('open');
-    hamburgerBtn.classList.toggle('open');
-    hamburgerBtn.setAttribute('aria-expanded', mobileMenu.classList.contains('open'));
-  });
-}
+/* Hamburger click + outside-click handler via event delegation */
+document.addEventListener('click', (e) => {
+  const btn = e.target.closest('.hamburger');
 
-/* Close mobile menu when a link is clicked */
-if (mobileMenu) {
-  mobileMenu.querySelectorAll('a').forEach((link) => {
-    link.addEventListener('click', () => {
+  /* Click on hamburger or its spans */
+  if (btn) {
+    mobileMenu.classList.toggle('open');
+    btn.classList.toggle('open');
+    btn.setAttribute('aria-expanded', mobileMenu.classList.contains('open'));
+    return;
+  }
+
+  /* Click outside menu when open */
+  if (mobileMenu && mobileMenu.classList.contains('open')) {
+    if (!e.target.closest('.mobile-menu')) {
       mobileMenu.classList.remove('open');
       hamburgerBtn.classList.remove('open');
       hamburgerBtn.setAttribute('aria-expanded', 'false');
-    });
-  });
-}
+    }
+  }
+});
 
 /* Close mobile menu on Escape key */
 document.addEventListener('keydown', (e) => {
@@ -43,17 +45,6 @@ document.addEventListener('keydown', (e) => {
     mobileMenu.classList.remove('open');
     hamburgerBtn.classList.remove('open');
     hamburgerBtn.setAttribute('aria-expanded', 'false');
-  }
-});
-
-/* Close mobile menu when clicking outside */
-document.addEventListener('click', (e) => {
-  if (mobileMenu && mobileMenu.classList.contains('open')) {
-    if (!mobileMenu.contains(e.target) && !hamburgerBtn.contains(e.target)) {
-      mobileMenu.classList.remove('open');
-      hamburgerBtn.classList.remove('open');
-      hamburgerBtn.setAttribute('aria-expanded', 'false');
-    }
   }
 });
 
