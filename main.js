@@ -1,7 +1,6 @@
 /* ============================================================================
    Elite Care Recovery — Main JavaScript
    ============================================================================ */
-console.log('main.js loaded');
 
 /* 1. STICKY NAV: Toggle .scrolled class after 50px scroll */
 const nav = document.querySelector('nav');
@@ -21,15 +20,12 @@ const mobileMenu = document.querySelector('.mobile-menu');
 /* Hamburger click + outside-click handler via event delegation */
 document.addEventListener('click', (e) => {
   const btn = e.target.closest('.hamburger');
-  console.log('Click handler fired. btn =', btn, 'mobileMenu =', mobileMenu);
 
   /* Click on hamburger or its spans */
   if (btn) {
-    console.log('Hamburger clicked! Toggling menu...');
     mobileMenu.classList.toggle('open');
     btn.classList.toggle('open');
     btn.setAttribute('aria-expanded', mobileMenu.classList.contains('open'));
-    console.log('Menu open class:', mobileMenu.classList.contains('open'));
     return;
   }
 
