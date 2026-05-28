@@ -111,7 +111,7 @@ if (form) {
 
         if (formStatus) {
           formStatus.textContent =
-            'Thanks for reaching out! We'll be in touch within 24 hours.';
+            'Thanks for reaching out! We\'ll be in touch within 24 hours.';
           formStatus.classList.add('show', 'success');
         }
 
