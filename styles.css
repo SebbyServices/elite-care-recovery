@@ -253,13 +253,17 @@ nav.scrolled {
 
 /* Hamburger menu (mobile) */
 .hamburger {
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   gap: 0.35rem;
-  background: none;
-  border: none;
+  background: none !important;
+  border: none !important;
   cursor: pointer;
-  padding: 0;
+  padding: 0 !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  border-radius: 0 !important;
+  transition: none;
 }
 
 @media (min-width: 768px) {
