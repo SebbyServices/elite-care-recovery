@@ -17,15 +17,24 @@ window.addEventListener('scroll', () => {
 const hamburgerBtn = document.querySelector('.hamburger');
 const mobileMenu = document.querySelector('.mobile-menu');
 
-/* Hamburger click + outside-click handler via event delegation */
+/* Hamburger click + close button + outside-click handler via event delegation */
 document.addEventListener('click', (e) => {
   const btn = e.target.closest('.hamburger');
+  const closeBtn = e.target.closest('.mobile-menu-close');
 
   /* Click on hamburger or its spans */
   if (btn) {
     mobileMenu.classList.toggle('open');
     btn.classList.toggle('open');
     btn.setAttribute('aria-expanded', mobileMenu.classList.contains('open'));
+    return;
+  }
+
+  /* Click on close button */
+  if (closeBtn) {
+    mobileMenu.classList.remove('open');
+    hamburgerBtn.classList.remove('open');
+    hamburgerBtn.setAttribute('aria-expanded', 'false');
     return;
   }
 
