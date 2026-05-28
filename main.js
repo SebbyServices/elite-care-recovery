@@ -1,6 +1,7 @@
 /* ============================================================================
    Elite Care Recovery — Main JavaScript
    ============================================================================ */
+console.log('main.js loaded');
 
 /* 1. STICKY NAV: Toggle .scrolled class after 50px scroll */
 const nav = document.querySelector('nav');
