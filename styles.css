@@ -296,7 +296,7 @@ nav.scrolled {
   height: 100vh;
   background-color: var(--color-bg);
   transition: right 300ms ease;
-  z-index: 99;
+  z-index: 101;
   display: flex;
   flex-direction: column;
   padding: 6rem 2rem 2rem;
