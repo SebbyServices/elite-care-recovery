@@ -212,6 +212,7 @@ nav.scrolled {
   display: flex;
   align-items: center;
   line-height: 1;
+  min-height: 44px;
 }
 
 .nav-links a {
