@@ -209,16 +209,14 @@ nav.scrolled {
   font-weight: 500;
   color: var(--color-charcoal);
   position: relative;
-  padding-bottom: 0.25rem;
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  height: 100%;
 }
 
 .nav-links a::after {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: -0.25rem;
   left: 0;
   width: 0;
   height: 2px;
