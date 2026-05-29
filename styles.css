@@ -185,6 +185,11 @@ nav.scrolled {
   margin: 0 auto;
 }
 
+.nav-logo-link {
+  display: flex;
+  align-items: center;
+}
+
 .nav-logo {
   width: 45px;
   height: auto;
@@ -201,6 +206,12 @@ nav.scrolled {
   .nav-links {
     display: flex;
   }
+}
+
+.nav-links li {
+  display: flex;
+  align-items: center;
+  line-height: 1;
 }
 
 .nav-links a {
@@ -237,7 +248,7 @@ nav.scrolled {
 }
 
 /* Reserve Now button in nav */
-.btn-nav {
+nav .btn-nav {
   background-color: var(--color-blue);
   color: white;
   padding: 0.75rem 1.5rem;
@@ -251,14 +262,14 @@ nav.scrolled {
 }
 
 @media (min-width: 1024px) {
-  .btn-nav {
+  nav .btn-nav {
     padding: 0.875rem 2rem;
     font-size: 1rem;
   }
 }
 
-.btn-nav:hover,
-.btn-nav:focus {
+nav .btn-nav:hover,
+nav .btn-nav:focus {
   background-color: var(--color-blue-dark);
 }
 
