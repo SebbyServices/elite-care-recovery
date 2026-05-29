@@ -305,6 +305,8 @@ nav.scrolled {
   flex-direction: column;
   padding: 0;
   gap: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 @media (min-width: 768px) {
@@ -337,6 +339,9 @@ nav.scrolled {
 .mobile-menu-logo {
   width: 40px;
   height: auto;
+  max-height: 40px;
+  flex-shrink: 0;
+  display: block;
 }
 
 /* Mobile menu close button (X icon) */
