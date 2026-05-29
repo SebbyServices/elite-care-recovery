@@ -277,7 +277,7 @@ nav.scrolled {
 
 @media (min-width: 1024px) {
   .hamburger {
-    display: none;
+    display: none !important;
   }
 }
 
