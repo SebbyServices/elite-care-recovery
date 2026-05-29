@@ -209,8 +209,7 @@ nav.scrolled {
   font-weight: 500;
   color: var(--color-charcoal);
   position: relative;
-  display: flex;
-  align-items: center;
+  line-height: 1;
 }
 
 .nav-links a::after {
@@ -247,9 +246,8 @@ nav.scrolled {
   transition: background-color 200ms ease;
   font-size: 0.95rem;
   white-space: nowrap;
-  display: inline-flex;
-  align-items: center;
-  height: 100%;
+  line-height: 1;
+  display: inline-block;
 }
 
 @media (min-width: 1024px) {
