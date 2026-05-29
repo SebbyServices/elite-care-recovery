@@ -197,7 +197,7 @@ nav.scrolled {
   align-items: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .nav-links {
     display: flex;
   }
@@ -244,6 +244,15 @@ nav.scrolled {
   border-radius: 4px;
   font-weight: 600;
   transition: background-color 200ms ease;
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+@media (min-width: 1024px) {
+  .btn-nav {
+    padding: 0.875rem 2rem;
+    font-size: 1rem;
+  }
 }
 
 .btn-nav:hover,
@@ -266,7 +275,7 @@ nav.scrolled {
   transition: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .hamburger {
     display: none;
   }
@@ -309,7 +318,7 @@ nav.scrolled {
   -webkit-overflow-scrolling: touch;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .mobile-menu {
     display: none;
   }
