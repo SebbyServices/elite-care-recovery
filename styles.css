@@ -1085,7 +1085,7 @@ footer {
   height: auto;
   margin-bottom: 1rem;
   background-color: white;
-  padding: 0.5rem;
+  padding: 0.25rem 0.5rem;
   border-radius: 4px;
   display: block;
 }
