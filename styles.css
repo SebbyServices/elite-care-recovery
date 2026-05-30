@@ -1084,6 +1084,10 @@ footer {
   width: 150px;
   height: auto;
   margin-bottom: 1rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 4px;
+  display: block;
 }
 
 .footer-tagline {
