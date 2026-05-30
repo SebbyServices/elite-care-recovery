@@ -194,7 +194,7 @@ nav.scrolled {
 }
 
 .nav-logo {
-  width: 140px;
+  width: 180px;
   height: auto;
 }
 
@@ -373,9 +373,9 @@ nav .btn-nav:focus {
 }
 
 .mobile-menu-logo {
-  width: 110px;
+  width: 150px;
   height: auto;
-  max-height: 110px;
+  max-height: 150px;
   flex-shrink: 0;
   display: block;
 }
@@ -1073,7 +1073,7 @@ footer {
 }
 
 .footer-logo {
-  width: 110px;
+  width: 150px;
   height: auto;
   margin-bottom: 1rem;
 }
