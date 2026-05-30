@@ -300,6 +300,8 @@ nav .btn-nav:focus {
   font-weight: inherit !important;
   border-radius: 0 !important;
   transition: none;
+  position: absolute;
+  right: 1.5rem;
 }
 
 @media (min-width: 1024px) {
