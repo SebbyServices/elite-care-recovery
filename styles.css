@@ -1143,6 +1143,24 @@ footer {
   margin-bottom: 0;
 }
 
+/* Build credit */
+.footer-credit {
+  font-size: 0.8rem;
+}
+
+.footer-credit a {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.footer-credit a:hover,
+.footer-credit a:focus-visible {
+  color: #fff;
+  border-bottom-color: rgba(255, 255, 255, 0.6);
+}
+
 /* Social icons */
 .social-icons {
   display: flex;
