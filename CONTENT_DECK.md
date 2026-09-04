@@ -8,7 +8,7 @@ This is the source-of-truth for all written content. If anything in `BUILD_PROMP
 
 - **Legal name:** Elite Care Recovery LLC
 - **Tagline:** Recover Faster. Feel Better.
-- **Phone:** (786) 214-2659
+- **Phone:** (305) 804-5214
 - **Email:** johnpierce08@outlook.com *(note: brochure shows `Johnpierce@orthoflowrecovery.com` — confirm with client)*
 - **Location:** Miami, FL
 - **Domain (pending):** elitecarerecovery.net

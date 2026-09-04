@@ -105,7 +105,7 @@ Tagline: **Recover Faster. Feel Better.**
 ## Contact
 
 **Business owner:** John Pierce
-**Phone:** (786) 214-2659
+**Phone:** (305) 804-5214
 **Email:** johnpierce08@outlook.com
 
 **Developer:** SebbyIT Consulting, Corp.

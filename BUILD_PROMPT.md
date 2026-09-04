@@ -112,7 +112,7 @@ Full footer with these blocks (4 columns on desktop, stack on mobile):
 - One-line description: "Premium post-operative recovery equipment, delivered to your door."
 
 **Column 2: Contact**
-- Phone: (786) 214-2659
+- Phone: (305) 804-5214
 - Email: johnpierce08@outlook.com
 - Service Area: Miami, FL & surrounding areas
 
@@ -299,7 +299,7 @@ Background: `--color-bg-alt` (cream variant)
 **Trust signal beneath form:** Small text with lock icon: "Your information is secure and HIPAA-compliant. We'll never share your data."
 
 **Alternative contact:** Below the form, a small block:
-> Prefer to call? **(786) 214-2659** &nbsp;|&nbsp; johnpierce08@outlook.com
+> Prefer to call? **(305) 804-5214** &nbsp;|&nbsp; johnpierce08@outlook.com
 
 ### Form styling notes
 - Inputs: cream background (`--color-bg`), 1px charcoal border, generous padding (14px), 4px border radius
