@@ -114,7 +114,7 @@ Full footer with these blocks (4 columns on desktop, stack on mobile):
 **Column 2: Contact**
 - Phone: (305) 804-5214
 - Email: johnpierce08@outlook.com
-- Service Area: Miami, FL & surrounding areas
+- Service Area: Palm Beach, Martin, St. Lucie, Okeechobee & Indian River counties, FL
 
 **Column 3: Hours**
 - Mon–Fri: 8:00 AM – 7:00 PM
